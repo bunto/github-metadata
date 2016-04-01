@@ -1,0 +1,30 @@
+# Travis CI
+sudo: false
+language: ruby
+rvm:
+- 2.1.7
+- 2.2
+- 2.3.0
+matrix:
+  include:
+    - rvm: 2.1.7
+      env: BUNTO_VERSION=1.0
+    - rvm: 2.1.7
+      env: GITHUB_PAGES=45
+env:
+  matrix:
+    - BUNTO_VERSION=1.0
+branches:
+  only:
+    - master
+before_script:
+  - chmod a+x script/bootstrap
+  - chmod a+x script/cibuild
+  - chmod a+x script/test
+  - chmod a+x script/test-site
+  - chmod a+x script/webmock-repopulate
+script: script/cibuild
+notifications:
+  email:
+    on_success: never
+    on_failure: change
