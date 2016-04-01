@@ -1,0 +1,6 @@
+repository: bunto/github-metadata
+github:
+  in_your_config:
+    setting_your: keyz
+gems:
+  - bunto-github-metadata
