@@ -10,7 +10,7 @@ matrix:
     - rvm: 2.1.7
       env: BUNTO_VERSION=1.0
     - rvm: 2.1.7
-      env: GITHUB_PAGES=45
+      env: GH_PAGES=1
 env:
   matrix:
     - BUNTO_VERSION=1.0
