@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Parker Moore", "Suriyaa Kudo"]
   spec.email         = ["parkrmoore@gmail.com", "SuriyaaKudoIsc@users.noreply.github.com"]
   spec.summary       = %q{The site.github namespace}
-  spec.homepage      = "https://github.com/parkr/github-metadata"
+  spec.homepage      = "https://github.com/bunto/github-metadata"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").grep(%r{^(lib|bin)/})
