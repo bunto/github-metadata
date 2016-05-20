@@ -1,6 +1,7 @@
 .bundle
 .tags*
 Gemfile.lock
+*.gem
 pkg
 _site
 tmp
