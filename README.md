@@ -1,7 +1,7 @@
 [github-metadata](https://rubygems.org/gems/bunto-github-metadata), a.k.a. `site.github`
 =====================================
 
-[![Build Status](https://travis-ci.org/bunto/github-metadata.svg?branch=test-site)](https://travis-ci.org/bunto/github-metadata)
+[![Build Status](https://travis-ci.org/bunto/github-metadata.svg?branch=master)](https://travis-ci.org/bunto/github-metadata)
 
 Access `site.github` metadata anywhere (...you have an internet connection).
 
