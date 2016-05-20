@@ -1,4 +1,4 @@
-github-metadata, a.k.a. `site.github`
+[github-metadata](https://rubygems.org/gems/bunto-github-metadata), a.k.a. `site.github`
 =====================================
 
 [![Build Status](https://travis-ci.org/bunto/github-metadata.svg?branch=test-site)](https://travis-ci.org/bunto/github-metadata)
